@@ -12,13 +12,45 @@ const SHeader = styled.header`
     padding-top: 10px;
     padding-bottom: 10px;
     height: 91px;
+
+
     
 `;
 const SHeaderInner = styled.div`
     width: 100%;
     max-width: 1200px;
     padding: 10px 15px;
+    z-index: 1;
+    color: white;
 `;
+
+//const SHeaderBg = styled.div`
+//    top: 0;
+//    left: 0;
+//    right: 0;
+//    z-index: 0;
+//    position: absolute;
+//    background-size: cover;
+//    background-color: #242832;
+//    background-repeat: no-repeat;
+//    background-position: center;
+//    height: 515px;
+//    display: block;
+//    background-image: url('https://wallpaperbro.com/img/29030.png');
+//`;
+//const SHeaderBg2 = styled.div`
+//    top: 0;
+//    left: 0;
+//    right: 0;
+//    z-index: 0;
+//    position: absolute;
+//    background-size: cover;
+//    background-color: rgba(0,0,0,.9);
+//    background-repeat: no-repeat;
+//    background-position: center;
+//    height: 515px;
+//    display: block;
+//`;
 
 export const Header = () => (
 	<SHeader>

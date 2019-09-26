@@ -27,7 +27,8 @@ const SImage = styled(LazyLoadImage)`
 `;
 
 const SName = styled.span`
-	font-weight: 800;
+	font-weight: 700;
+	letter-spacing: 1px;
 	margin-left: 12px;
 `;
 
