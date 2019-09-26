@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b36f2d0-7cfc-4163-8c03-dafcce43974f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/icon-144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/icon-152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/icon-180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/icon-32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/Logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Logo.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +28,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/icons" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -43,6 +47,7 @@
       <recent name="F:\Web Projects\resume\src\components\layout" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Web Projects\resume\public\icons" />
       <recent name="F:\Web Projects\resume\src" />
       <recent name="F:\Web Projects\resume\public" />
       <recent name="F:\Web Projects\resume" />
@@ -85,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569511774414</updated>
-      <workItem from="1569511775621" duration="25506000" />
+      <workItem from="1569511775621" duration="26186000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1569514020706</created>
@@ -248,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569540523443</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Changed meta wording">
+      <created>1569540625924</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1569540625924</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +289,7 @@
     <MESSAGE value="changed font color" />
     <MESSAGE value="animations and colors" />
     <MESSAGE value="Removed unused library from package.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed unused library from package.json" />
+    <MESSAGE value="Changed meta wording" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed meta wording" />
   </component>
 </project>

@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components/macro'
+import logo from '../../assets/img/logo.png'
 
 const SLogo = styled.a`
 	display: flex;
@@ -35,7 +36,7 @@ const SName = styled.span`
 export const Logo = () => (
 	<SLogo>
 		<SImageContainer>
-			<SImage/>
+			<SImage src={logo} alt={'logo'}/>
 		</SImageContainer>
 		<SName>
 			Chancey Hawbaker

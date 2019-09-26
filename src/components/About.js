@@ -217,7 +217,7 @@ export const About = () => {
 			<SectionBox>
 				<SAbout>
 					<ImageWrapper>
-						<Image src={MeUrl}/>
+						<Image src={MeUrl} alt={'Me'}/>
 					</ImageWrapper>
 
 					<AboutWrapper>
