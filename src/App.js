@@ -5,22 +5,21 @@ import {Header} from "./components/layout/Header";
 import {Footer} from "./components/layout/Footer";
 import {Layout} from "./components/layout/Layout";
 
-import loadable from "@loadable/component";
-import {PrerenderedComponent} from "react-prerendered-component";
-//import Home from "./views/Home";
-//import Account from "./views/Account";
+//import loadable from "@loadable/component";
+//import {PrerenderedComponent} from "react-prerendered-component";
+import Home from "./views/Home";
 
 
-const prerenderedLoadable = dynamicImport => {
-	const LoadableComponent = loadable(dynamicImport);
-	return React.memo(props => (
-		<PrerenderedComponent live={LoadableComponent.load()}>
-			<LoadableComponent {...props} />
-		</PrerenderedComponent>
-	));
-};
-
-const Home = prerenderedLoadable(() => import("./views/Home"));
+//const prerenderedLoadable = dynamicImport => {
+//	const LoadableComponent = loadable(dynamicImport);
+//	return React.memo(props => (
+//		<PrerenderedComponent live={LoadableComponent.load()}>
+//			<LoadableComponent {...props} />
+//		</PrerenderedComponent>
+//	));
+//};
+//
+//const Home = prerenderedLoadable(() => import("./views/Home"));
 
 
 const title = "Chancey Hawbaker Online Resume";
