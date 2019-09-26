@@ -60,11 +60,6 @@ button {
   text-transform: none;
 }
 
-::selection {
-  background-color: #b3d4fc;
-  color: #000;
-  text-shadow: none;
-}
 ::after, ::before {
   text-decoration: inherit;
   vertical-align: inherit;
@@ -93,8 +88,9 @@ article, aside, footer, header, nav, section {
   border-radius: .5em;
 }
 
+
 ::selection {
-  background: #4f5061;
+  background-color: #4f5061;
   color: #fff;
   text-shadow: none;
 }

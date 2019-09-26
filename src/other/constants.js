@@ -1,1 +1,1 @@
-export const DESKTOP_WIDTH = 860;
+export const DESKTOP_WIDTH = 880;

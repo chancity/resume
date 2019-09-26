@@ -15,6 +15,7 @@ const NavLi = styled.li`
 	display: flex;
 	a {
 		padding: 12px;
+		
 	}
 `;
 

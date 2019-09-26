@@ -4,6 +4,9 @@ import {Section, SectionBox, WrapperContainer} from "./Shared";
 import MeUrl from '../assets/img/me.png'
 import {ReactComponent as GithubSvg} from "../assets/img/social/github.svg";
 import {ReactComponent as LinkedInSvg} from "../assets/img/social/linkedin.svg";
+import {ReactComponent as InstagramSvg} from "../assets/img/social/instagram.svg";
+import {ReactComponent as FacebookSvg} from "../assets/img/social/facebook.svg";
+
 import {DESKTOP_WIDTH} from "../other/constants";
 
 const Hellos = [
@@ -161,10 +164,13 @@ const SocialsWrapper = styled.div`
 	width: 100%;
 	background-color: #8a00ff;
   	color: #fff;
-    padding: 15px 0;
+    padding: .5em 0;
     border-bottom-right-radius: .25em;
     border-bottom-left-radius: .25em;
-    
+    svg {
+    	width: 35px;
+    	height: 35px;
+    }
     ul {
 	    margin: 0;
 	    padding: 0;
@@ -194,7 +200,7 @@ const SocialsWrapper = styled.div`
 			    
 			    :hover {
 			        text-decoration: none;
-		            background-color: rgba(0, 0, 0, 0.3);
+		            background-color: rgba(0, 0, 0, 0.4);
 				}
 		    }
 	    }
@@ -269,6 +275,16 @@ export const About = () => {
 						<li>
 							<a target="_blank" href={'https://www.linkedin.com/in/chancey-h-99534055/'}>
 								<LinkedInSvg/>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href={'https://www.instagram.com/bdmakdad/'}>
+								<InstagramSvg/>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href={'https://www.facebook.com/chancey.hawbaker'}>
+								<FacebookSvg/>
 							</a>
 						</li>
 					</ul>
