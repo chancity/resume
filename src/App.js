@@ -22,11 +22,11 @@ import Home from "./views/Home";
 //const Home = prerenderedLoadable(() => import("./views/Home"));
 
 
-const title = "Chancey Hawbaker Online Resume";
+const title = "Chancey Hawbaker's Resume";
 
 const routes = [
 	{
-		title: "Chancey Hawbaker Online Resume",
+		title: "Chancey Hawbaker's Resume",
 		path: "/",
 		component: Home,
 		exact: true

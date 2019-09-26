@@ -9,7 +9,7 @@ export default () => (
 	<Body>
 		<Seo
 			title="Home"
-			titleDescription="Chancey Hawbaker Online Resume"
+			titleDescription="Chancey Hawbaker's Resume"
 			description="Some Super cool meta description"
 			path="/"
 			image="index"
