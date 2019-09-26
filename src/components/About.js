@@ -164,22 +164,25 @@ const SocialsWrapper = styled.div`
 	width: 100%;
 	background-color: #8a00ff;
   	color: #fff;
-    padding: .5em 0;
+    padding: 1em 0;
     border-bottom-right-radius: .25em;
     border-bottom-left-radius: .25em;
+    
     svg {
-    	width: 35px;
-    	height: 35px;
+        width: 100%;
+    	height: auto;
     }
+    
     ul {
 	    margin: 0;
 	    padding: 0;
 	    list-style: none;
-	    text-align: center;
-	    
+        display: flex;
+        justify-content: center;
+        
 		li {
-		    display: inline-block;
-		    margin: 0 15px 0 0;
+		    display: inline-flex;
+		    margin: 0 25px 0 0;
 		    
 		    a {
 		        width: 45px;
@@ -200,7 +203,7 @@ const SocialsWrapper = styled.div`
 			    
 			    :hover {
 			        text-decoration: none;
-		            background-color: rgba(0, 0, 0, 0.4);
+		            background-color: #149e83;
 				}
 		    }
 	    }
