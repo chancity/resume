@@ -1,5 +1,4 @@
 import React from 'react'
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 import styled from 'styled-components/macro'
 
 const SLogo = styled.a`
@@ -18,7 +17,7 @@ const SImageContainer = styled.div`
 	overflow: hidden;
 `;
 
-const SImage = styled(LazyLoadImage)`
+const SImage = styled.img`
 	width: 50px;
 	height: 50px;
 	min-width: 50px;
