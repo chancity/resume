@@ -87,7 +87,7 @@ const AboutListValue = styled.span`
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
-    
+
     @media (max-width: ${DESKTOP_WIDTH}px) {
 		width: 100%;
 		float: none;
@@ -243,7 +243,9 @@ export const About = () => {
 									email
 								</AboutListTitle>
 								<AboutListValue>
-									<a href="mailto:chanceyhawbaker@gmail.com">chanceyhawbaker@gmail.com</a>
+									<a href="mailto:chanceyhawbaker@gmail.com">
+										chanceyhawbaker@gmail.com
+									</a>
 								</AboutListValue>
 							</li>
 							<li>
@@ -251,7 +253,9 @@ export const About = () => {
 									phone
 								</AboutListTitle>
 								<AboutListValue>
-									<a href="tel:+14066621520">+1 (406) 662 1520</a>
+									<a href="tel:+14066621520">
+										+1 (406) 662 1520
+									</a>
 								</AboutListValue>
 							</li>
 							<li>
