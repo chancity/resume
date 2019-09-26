@@ -54,6 +54,12 @@ const AboutList = styled.ul`
             content: " ";
     		display: table;
     	}
+    	
+    	a {
+    		:hover {
+    			text-decoration: underline;
+    		}
+    	}
     }
 `;
 const AboutListTitle = styled.strong`
@@ -110,7 +116,7 @@ const ImageWrapper = styled.div`
 
 const Image = styled.img`
 	transition: all .15s ease-in-out;
-	    width: 200px;
+	width: 200px;
     height: 200px;
 	:hover {
 		transform: scale(1.05);
@@ -231,7 +237,7 @@ export const About = () => {
 									email
 								</AboutListTitle>
 								<AboutListValue>
-									chanceyhawbaker@gmail.com
+									<a href="mailto:chanceyhawbaker@gmail.com">chanceyhawbaker@gmail.com</a>
 								</AboutListValue>
 							</li>
 							<li>
@@ -239,7 +245,7 @@ export const About = () => {
 									phone
 								</AboutListTitle>
 								<AboutListValue>
-									+1 (406) 662 1520
+									<a href="tel:+14066621520">+1 (406) 662 1520</a>
 								</AboutListValue>
 							</li>
 							<li>
