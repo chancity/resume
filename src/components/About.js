@@ -3,6 +3,7 @@ import styled from 'styled-components/macro'
 import {Section, SectionBox, WrapperContainer} from "./Shared";
 import MeUrl from '../assets/img/me.png'
 import {ReactComponent as GithubSvg} from "../assets/img/social/github.svg";
+import {ReactComponent as LinkedInSvg} from "../assets/img/social/linkedin.svg";
 
 const Hellos = [
 	'Bonjour',
@@ -152,7 +153,7 @@ const SocialsWrapper = styled.div`
 			    
 			    :hover {
 			    	text-decoration: none;
-    				background-color: rgba(0, 0, 0, 0.1);
+    				background-color: rgba(0, 0, 0, 0.3);
 				}
 
 
@@ -224,18 +225,8 @@ export const About = () => {
 							</a>
 						</li>
 						<li>
-							<a target="_blank" href={'https://github.com/chancity'}>
-								<GithubSvg/>
-							</a>
-						</li>
-						<li>
-							<a target="_blank" href={'https://github.com/chancity'}>
-								<GithubSvg/>
-							</a>
-						</li>
-						<li>
-							<a target="_blank" href={'https://github.com/chancity'}>
-								<GithubSvg/>
+							<a target="_blank" href={'https://www.linkedin.com/in/chancey-h-99534055/'}>
+								<LinkedInSvg/>
 							</a>
 						</li>
 					</ul>
