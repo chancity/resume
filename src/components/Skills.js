@@ -105,7 +105,6 @@ export const Skills = () => {
 			</SectionTitle>
 			<SkillsSectionBox>
 				<SkillsWrapper>
-
 					<ProgressBar title={'Troubleshooting'} percentage={100}/>
 					<ProgressBar title={'Website Optimization'} percentage={100}/>
 					<ProgressBar title={'Creative Thinker / Innovative Problem Solver'} percentage={95}/>

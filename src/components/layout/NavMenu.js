@@ -3,6 +3,7 @@ import styled from 'styled-components/macro'
 
 const SNavMenu = styled.nav`
 	width: 100%;
+
 `;
 
 const NavUl = styled.ul`
@@ -15,7 +16,20 @@ const NavLi = styled.li`
 	display: flex;
 	a {
 		padding: 12px;
+		:after{
+		  	content: "";
+			transition: all ease .25s;
+		    height: 9px;
+		    display: block;
+	       	border-bottom: 2px solid #8a00ff;
+			width: 0;
+		}	
 		
+		:hover {
+			:after{
+			    width: 100%;
+			}
+		}	
 	}
 `;
 

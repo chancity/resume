@@ -4,7 +4,7 @@ html{
   -webkit-text-size-adjust: 100%;
 }
 body {
-  background-color: #fff;
+  background-color: ghostwhite;
   direction: ltr;
   font-family: NunitoSans,-apple-system, BlinkMacSystemFont, Proxima Nova, Segoe UI, Roboto,Oxygen, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 18px;
@@ -19,6 +19,7 @@ a {
   display: block;
   cursor: pointer;
   transition: all 0.15s ease 0s;
+  font-weight: 500;
 }
 
 audio, canvas, iframe, img, svg, video {
