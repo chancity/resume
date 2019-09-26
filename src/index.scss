@@ -1,0 +1,105 @@
+html{
+  -webkit-tap-highlight-color: transparent;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  background-color: #fff;
+  direction: ltr;
+  font-family: NunitoSans,-apple-system, BlinkMacSystemFont, Proxima Nova, Segoe UI, Roboto,Oxygen, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  color: #59595a;
+}
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+a {
+  text-decoration: none;
+  color: #59595a;
+  background-color: transparent;
+  display: block;
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+}
+
+audio, canvas, iframe, img, svg, video {
+  vertical-align: middle;
+}
+
+img {
+  border: 0;
+  height: auto;
+  -ms-interpolation-mode: bicubic;
+  max-width: 100%;
+  vertical-align: middle;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+svg{
+  fill: currentColor;
+}
+::after, ::before {
+  text-decoration: inherit;
+  vertical-align: inherit;
+}
+*, ::after, ::before {
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+button, input, select {
+  margin: 0;
+}
+
+button {
+  text-transform: none;
+}
+
+::selection {
+  background-color: #b3d4fc;
+  color: #000;
+  text-shadow: none;
+}
+::after, ::before {
+  text-decoration: inherit;
+  vertical-align: inherit;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+[tabindex], a, area, button, input, label, select, summary, textarea {
+  touch-action: manipulation;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,.3);
+  border-radius: .5em;
+  border: 0 solid transparent;
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: .5em;
+}
+
+::selection {
+  background: #4f5061;
+  color: #fff;
+  text-shadow: none;
+}

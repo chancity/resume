@@ -1,17 +1,53 @@
 {
-  "name": "resume",
+  "name": "chancey",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "ms.macro": "^2.0.0",
+    "@loadable/component": "^5.10.2",
+    "appcache-nanny": "^1.1.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.2"
+    "react-helmet": "^5.2.1",
+    "react-lazy-load-image-component": "^1.3.2",
+    "react-lazyload": "^2.6.2",
+    "react-prerendered-component": "^1.2.2",
+    "react-router-dom": "^5.0.1",
+    "styled-components": "^4.3.2",
+    "react-ga": "^2.6.0",
+    "history": "^4.10.1"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.10.6",
+    "highland": "^2.13.5",
+    "level": "^5.0.1",
+    "prettier": "^1.18.2",
+    "react-scripts": "^3.1.1",
+    "react-snap": "^1.23.0",
+    "readdirp": "^3.1.2",
+    "sw-precache": "^5.2.1",
+    "uglifyjs": "^2.4.11",
+    "node-sass": "^4.12.0",
+    "rimraf": "^3.0.0",
+    "mkdirp": "^0.5.1",
+    "mv": "^2.1.1",
+    "gh-pages": "^2.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build-react": "react-scripts build",
+    "copy": "react-snap && node scripts/move-200.js",
+    "copy2": "yarn run screen-shots && node scripts/move-tmp-200.js",
+    "build": "yarn run build-react && yarn run copy && yarn run copy2 && yarn run generate-sw && yarn run generate-appcache",
+    "screen-shots": "node scripts/screenshots.js",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "generate-fb": "node scripts/add-push-headers.js",
+    "generate-sw": "sw-precache --root=build --config scripts/sw-precache-config.js && uglifyjs build/service-worker.js -o build/service-worker.js",
+    "generate-appcache": "node scripts/generate-appcache.js",
+    "aws-deploy": "node scripts/aws-deploy.js",
+    "deploy": "yarn run build && yarn run generate-fb && firebase deploy",
+    "gh-deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -20,12 +56,30 @@
     "production": [
       ">0.2%",
       "not dead",
+      "not ie <= 11",
       "not op_mini all"
     ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "babelMacros": {
+    "styledComponents": {
+      "pure": true
+    }
+  },
+  "reactSnap": {
+    "port": 45679,
+    "preloadImages": true,
+    "inlineCss": true,
+    "http2PushManifest": true,
+    "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"],
+    "fixWebpackChunksIssue": "CRA2",
+    "skipThirdPartyRequests": true,
+    "include": [
+      "/shell.html"
     ]
   }
 }
