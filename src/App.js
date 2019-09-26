@@ -4,7 +4,6 @@ import Helmet from "react-helmet";
 import {Header} from "./components/layout/Header";
 import {Footer} from "./components/layout/Footer";
 import {Layout} from "./components/layout/Layout";
-import {Body} from "./components/layout/Body";
 
 import loadable from "@loadable/component";
 import {PrerenderedComponent} from "react-prerendered-component";
@@ -39,7 +38,7 @@ export const App = () => (
 	<Layout>
 		<Helmet titleTemplate={`%s - ${title}`}/>
 		<Header/>
-		<Body>
+
 			<Switch>
 				{routes.map((route, i) => (
 					<Route key={i} {...route} />
@@ -50,7 +49,6 @@ export const App = () => (
 					component={() => null}
 				/>
 			</Switch>
-		</Body>
 		<Footer/>
 	</Layout>
 );

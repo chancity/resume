@@ -12,18 +12,13 @@ body {
   line-height: 1.5;
   color: #59595a;
 }
-h1 {
-  font-size: 2em;
-  margin: .67em 0;
-}
-
 a {
   text-decoration: none;
   color: #59595a;
   background-color: transparent;
   display: block;
   cursor: pointer;
-  transition: all 0.2s ease 0s;
+  transition: all 0.15s ease 0s;
 }
 
 audio, canvas, iframe, img, svg, video {

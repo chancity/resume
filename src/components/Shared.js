@@ -25,5 +25,14 @@ export const Container = styled.div`
 
 
 export const Section = styled.section`
+	padding-top: 70px;
+	width: 100%;
+`;
 
+export const SectionBox = styled.div`
+	background-color: #fff;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    padding: 0;
+	width: 100%;
+	border-radius: .25em;
 `;

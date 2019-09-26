@@ -1,9 +1,11 @@
 import React from 'react'
 import Seo from "../components/Seo";
+import {About} from "../components/About";
+import {Body} from "../components/layout/Body";
 
 
 export default () => (
-	<>
+	<Body>
 		<Seo
 			title="Home"
 			titleDescription="Chancey Hawbaker Online Resume"
@@ -11,5 +13,6 @@ export default () => (
 			path="/"
 			image="index"
 		/>
-	</>
+		<About/>
+	</Body>
 );
