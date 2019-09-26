@@ -11,7 +11,7 @@ const SLogo = styled.a`
 
 const SImageContainer = styled.div`
 	width: 50px;
-	height: auto;
+	height: 50px;
 	min-width: 50px;
 	min-height: 50px;
 	border: none;
@@ -20,8 +20,8 @@ const SImageContainer = styled.div`
 
 const SImage = styled(LazyLoadImage)`
 	width: 50px;
-	height: auto;
-	min-width: 30px;
+	height: 50px;
+	min-width: 50px;
 	min-height: 50px;
 	border: none;
 `;
