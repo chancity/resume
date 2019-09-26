@@ -80,6 +80,9 @@ const Image = styled.img`
     float: left;
     margin-right: 10%;
     height: 285px;
+    min-height: 285px;
+    width: 160px;
+    min-width: 160px;
 `;
 const AboutWrapper = styled(WrapperContainer)`
 	flex-direction: column;

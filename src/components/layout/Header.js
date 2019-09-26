@@ -11,6 +11,8 @@ const SHeader = styled.header`
 	width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
+    height: 91px;
+    
 `;
 const SHeaderInner = styled.div`
     width: 100%;
