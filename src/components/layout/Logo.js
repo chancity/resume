@@ -30,6 +30,7 @@ const SName = styled.span`
 	font-weight: 700;
 	letter-spacing: 1px;
 	margin-left: 12px;
+	font-size: 24px;
 `;
 
 export const Logo = () => (

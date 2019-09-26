@@ -10,11 +10,7 @@ const SHeader = styled.header`
 	justify-content: center;
 	width: 100%;
     padding-top: 10px;
-    padding-bottom: 10px;
-    height: 91px;
-
-
-    
+    padding-bottom: 10px;    
 `;
 const SHeaderInner = styled.div`
     width: 100%;
