@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8b36f2d0-7cfc-4163-8c03-dafcce43974f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/NavMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/NavMenu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569511774414</updated>
-      <workItem from="1569511775621" duration="23949000" />
+      <workItem from="1569511775621" duration="24109000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1569514020706</created>
@@ -213,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569538408192</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Skills added">
+      <created>1569539082689</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1569539082689</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
