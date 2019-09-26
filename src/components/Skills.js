@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 import {Section, SectionBox, SectionTitle} from "./Shared";
+import {DESKTOP_WIDTH} from "../other/constants";
 
 const SkillsSectionBox = styled(SectionBox)`
     padding: 20px;
@@ -16,7 +17,11 @@ const ProgressBarWrapper = styled.div`
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px;
-    flex: auto;
+    flex: 1 1 50%;
+    
+   	 @media (max-width: ${DESKTOP_WIDTH}px) {
+	 	flex: auto;
+	 }
 `;
 const SProgressBar = styled.div`
     position: relative;
@@ -100,12 +105,17 @@ export const Skills = () => {
 			</SectionTitle>
 			<SkillsSectionBox>
 				<SkillsWrapper>
-					<ProgressBar title={'Mobile Design / User Experience / Usability'} percentage={85}/>
-					<ProgressBar title={'Mobile Design / User Experience / Usability'} percentage={85}/>
-					<ProgressBar title={'Mobile Design / User Experience / Usability'} percentage={85}/>
-					<ProgressBar title={'Mobile Design / User Experience / Usability'} percentage={85}/>
-					<ProgressBar title={'Mobile Design / User Experience / Usability'} percentage={85}/>
-					<ProgressBar title={'Mobile Design / User Experience / Usability'} percentage={85}/>
+
+					<ProgressBar title={'Troubleshooting'} percentage={100}/>
+					<ProgressBar title={'Website Optimization'} percentage={100}/>
+					<ProgressBar title={'Creative Thinker / Innovative Problem Solver'} percentage={95}/>
+					<ProgressBar title={'React Framework'} percentage={95}/>
+					<ProgressBar title={'ASP.NET Core'} percentage={95}/>
+					<ProgressBar title={'Reverse Engineering'} percentage={95}/>
+					<ProgressBar title={'HTML / CSS'} percentage={95}/>
+					<ProgressBar title={'Ecommerce'} percentage={90}/>
+					<ProgressBar title={'User Experience'} percentage={85}/>
+					<ProgressBar title={'Design'} percentage={85}/>
 				</SkillsWrapper>
 			</SkillsSectionBox>
 		</Section>
