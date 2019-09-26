@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8b36f2d0-7cfc-4163-8c03-dafcce43974f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Logo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/me.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/me.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +35,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Web Projects\resume\src\assets\img" />
       <recent name="F:\Web Projects\resume\src\other" />
       <recent name="F:\Web Projects\resume\src" />
       <recent name="F:\Web Projects\resume\src\components\layout" />
@@ -81,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569511774414</updated>
-      <workItem from="1569511775621" duration="12337000" />
+      <workItem from="1569511775621" duration="14567000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1569514020706</created>
@@ -132,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569524911190</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fix prerender">
+      <created>1569524969735</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1569524969735</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,17 +164,5 @@
     <MESSAGE value="Remove code splitting" />
     <MESSAGE value="fix prerender" />
     <option name="LAST_COMMIT_MESSAGE" value="fix prerender" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/About.js</url>
-          <line>77</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

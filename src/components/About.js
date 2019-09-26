@@ -4,6 +4,7 @@ import {Section, SectionBox, WrapperContainer} from "./Shared";
 import MeUrl from '../assets/img/me.png'
 import {ReactComponent as GithubSvg} from "../assets/img/social/github.svg";
 import {ReactComponent as LinkedInSvg} from "../assets/img/social/linkedin.svg";
+import {DESKTOP_WIDTH} from "../other/constants";
 
 const Hellos = [
 	'Bonjour',
@@ -48,6 +49,7 @@ const AboutList = styled.ul`
     
     li {
         margin-bottom: 13px;
+        
     	:before, :after {
             content: " ";
     		display: table;
@@ -63,6 +65,12 @@ const AboutListTitle = styled.strong`
     font-weight: 700;
     line-height: 20px;
     text-transform: uppercase;
+    
+	@media (max-width: ${DESKTOP_WIDTH}px) {
+		width: 100%;
+		float: none;
+		line-height: 1.2;
+	}
 `;
 const AboutListValue = styled.span`
     display: block;
@@ -70,19 +78,43 @@ const AboutListValue = styled.span`
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
+    
+    @media (max-width: ${DESKTOP_WIDTH}px) {
+		width: 100%;
+		float: none;
+		line-height: 1.2;
+	    margin-left: 0;
+    	margin-bottom: 15px;
+	}
 `;
 const SAbout = styled.div`
-	padding: 57px 50px 15px 50px;
+	padding: 50px 50px 15px 50px;
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	
+	 @media (max-width: ${DESKTOP_WIDTH}px) {
+	 	padding: 30px 20px 15px 20px;
+	 }
 `;
+
+const ImageWrapper = styled.div`
+    margin-bottom: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.24);
+`;
+
 const Image = styled.img`
-    position: relative;
-    float: left;
-    margin-right: 10%;
-    height: 285px;
-    min-height: 285px;
-    width: 160px;
-    min-width: 160px;
+	transition: all .15s ease-in-out;
+	    width: 200px;
+    height: 200px;
+	:hover {
+		transform: scale(1.05);
+	}
 `;
 const AboutWrapper = styled(WrapperContainer)`
 	flex-direction: column;
@@ -102,7 +134,7 @@ const AboutPreWord = styled.div`
 	    text-transform: uppercase;
 	    position: relative;
 	    border-radius: .25em;
-	    
+	      box-shadow: 0 1px 6px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.24);
 	    :before {
 	    	border-left-color: #8a00ff;
 			content: '';
@@ -133,12 +165,12 @@ const SocialsWrapper = styled.div`
 	    list-style: none;
 	    text-align: center;
 	    
-	    li {
-	    	display: inline-block;
-            margin: 0 15px 0 0;
-   			
-   			a {
-                width: 45px;
+		li {
+		    display: inline-block;
+		    margin: 0 15px 0 0;
+		    
+		    a {
+		        width: 45px;
 			    height: 45px;
 			    position: relative;
 			    color: white;
@@ -155,15 +187,13 @@ const SocialsWrapper = styled.div`
 			    align-items: center;
 			    
 			    :hover {
-			    	text-decoration: none;
-    				background-color: rgba(0, 0, 0, 0.3);
+			        text-decoration: none;
+		            background-color: rgba(0, 0, 0, 0.3);
 				}
-
-
-			    }
-   			}
+		    }
 	    }
-    }
+	}
+    
 `;
 export const About = () => {
 	const helloIndex = Math.floor(Math.random() * Hellos.length);
@@ -171,7 +201,10 @@ export const About = () => {
 		<SectionAbout id={'about'}>
 			<SectionBox>
 				<SAbout>
-					<Image src={MeUrl}/>
+					<ImageWrapper>
+						<Image src={MeUrl}/>
+					</ImageWrapper>
+
 					<AboutWrapper>
 						<AboutPreWord>
 							<span>{Hellos[helloIndex]}</span>
