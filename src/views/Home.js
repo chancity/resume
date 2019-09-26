@@ -2,6 +2,7 @@ import React from 'react'
 import Seo from "../components/Seo";
 import {About} from "../components/About";
 import {Body} from "../components/layout/Body";
+import {Skills} from "../components/Skills";
 
 
 export default () => (
@@ -14,5 +15,6 @@ export default () => (
 			image="index"
 		/>
 		<About/>
+		<Skills/>
 	</Body>
 );

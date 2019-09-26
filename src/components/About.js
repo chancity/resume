@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components/macro'
-import {Section, SectionBox, WrapperContainer} from "./Shared";
+import {Section, SectionBlurbs, SectionBox, WrapperContainer} from "./Shared";
 import MeUrl from '../assets/img/me.png'
 import {ReactComponent as GithubSvg} from "../assets/img/social/github.svg";
 import {ReactComponent as LinkedInSvg} from "../assets/img/social/linkedin.svg";
@@ -294,6 +294,9 @@ export const About = () => {
 					</ul>
 				</SocialsWrapper>
 			</SectionBox>
+			<SectionBlurbs>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At varius vel pharetra vel turpis nunc eget lorem dolor. Morbi non arcu risus quis varius quam. Amet mattis vulputate enim nulla aliquet porttitor lacus luctus. Libero enim sed faucibus turpis in eu mi bibendum neque. Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac. Nam libero justo laoreet sit amet cursus sit amet. Nulla facilisi nullam vehicula ipsum. Tortor at risus viverra adipiscing. Dolor sit amet consectetur adipiscing elit. Consectetur lorem donec massa sapien faucibus et molestie ac feugiat. Sagittis vitae et leo duis ut diam quam.</p>
+			</SectionBlurbs>
 		</SectionAbout>
 	)
 };

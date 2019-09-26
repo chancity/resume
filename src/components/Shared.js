@@ -32,7 +32,32 @@ export const Section = styled.section`
 export const SectionBox = styled.div`
 	background-color: #fff;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
-    padding: 0;
 	width: 100%;
 	border-radius: .25em;
+`;
+
+export const SectionBlurbs = styled.div`
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.8;
+    text-align: center;
+    margin-top: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    p {
+    	margin: 0 0 25px 0;
+	}
+	
+	*:last-child {
+    	margin-bottom: 0;
+	}
+`;
+
+export const SectionTitle = styled.h2`
+    font-size: 34px;
+    margin-bottom: 25px;
+    line-height: 1.2;
+    font-weight: 600;
+    text-align: center;
 `;
