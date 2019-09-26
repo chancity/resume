@@ -90,11 +90,11 @@ const AboutListValue = styled.span`
 const SAbout = styled.div`
 	padding: 50px 50px 15px 50px;
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-evenly;
 	
 	 @media (max-width: ${DESKTOP_WIDTH}px) {
 	 	padding: 30px 20px 15px 20px;
+	 	flex-direction: column;
 	 }
 `;
 
