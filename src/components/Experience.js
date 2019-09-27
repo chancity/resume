@@ -3,7 +3,8 @@ import {ReactComponent as WorkSvg} from "../assets/img/layout/work.svg";
 import {ReactComponent as SchoolSvg} from "../assets/img/layout/school.svg";
 import {ReactComponent as StarSvg} from "../assets/img/layout/star.svg";
 import {VerticalTimeline, VerticalTimelineElement} from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
+import '../timeline.scss'
+
 import {Section, SectionTitle} from "./Shared";
 
 
