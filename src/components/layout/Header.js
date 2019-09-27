@@ -14,7 +14,7 @@ const SHeader = styled.header`
 `;
 const SHeaderInner = styled.div`
     width: 100%;
-    max-width: 1200px;
+    max-width: 1500px;
     padding: 10px 15px;
     z-index: 1;
     color: white;

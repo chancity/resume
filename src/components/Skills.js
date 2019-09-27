@@ -20,7 +20,7 @@ const ProgressBarWrapper = styled.div`
     flex: 1 1 50%;
     
    	 @media (max-width: ${DESKTOP_WIDTH}px) {
-	 	flex: auto;
+	 	flex: 100%;
 	 }
 `;
 const SProgressBar = styled.div`
