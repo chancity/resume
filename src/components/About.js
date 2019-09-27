@@ -275,22 +275,22 @@ export const About = () => {
 				<SocialsWrapper>
 					<ul>
 						<li>
-							<a target="_blank" href={'https://github.com/chancity'}>
+							<a target="_blank" href={'https://github.com/chancity'} rel="noopener noreferrer" >
 								<GithubSvg/>
 							</a>
 						</li>
 						<li>
-							<a target="_blank" href={'https://www.linkedin.com/in/chancey-h-99534055/'}>
+							<a target="_blank" href={'https://www.linkedin.com/in/chancey-h-99534055/'} rel="noopener noreferrer" >
 								<LinkedInSvg/>
 							</a>
 						</li>
 						<li>
-							<a target="_blank" href={'https://www.instagram.com/bdmakdad/'}>
+							<a target="_blank" href={'https://www.instagram.com/bdmakdad/'} rel="noopener noreferrer" >
 								<InstagramSvg/>
 							</a>
 						</li>
 						<li>
-							<a target="_blank" href={'https://www.facebook.com/chancey.hawbaker'}>
+							<a target="_blank" href={'https://www.facebook.com/chancey.hawbaker'} rel="noopener noreferrer" >
 								<FacebookSvg/>
 							</a>
 						</li>

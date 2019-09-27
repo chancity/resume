@@ -3,6 +3,7 @@ import Seo from "../components/Seo";
 import {About} from "../components/About";
 import {Body} from "../components/layout/Body";
 import {Skills} from "../components/Skills";
+import {Experience} from "../components/Experience";
 
 
 export default () => (
@@ -16,5 +17,6 @@ export default () => (
 		/>
 		<About/>
 		<Skills/>
+		<Experience/>
 	</Body>
 );

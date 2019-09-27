@@ -3,34 +3,35 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "ms.macro": "^2.0.0",
     "@loadable/component": "^5.10.2",
     "appcache-nanny": "^1.1.0",
+    "history": "^4.10.1",
+    "ms.macro": "^2.0.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-ga": "^2.6.0",
     "react-helmet": "^5.2.1",
     "react-lazyload": "^2.6.2",
     "react-prerendered-component": "^1.2.2",
     "react-router-dom": "^5.0.1",
-    "styled-components": "^4.3.2",
-    "react-ga": "^2.6.0",
-    "history": "^4.10.1"
+    "react-vertical-timeline-component": "^2.5.0",
+    "styled-components": "^4.3.2"
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^1.10.6",
+    "gh-pages": "^2.1.1",
     "highland": "^2.13.5",
     "level": "^5.0.1",
+    "mkdirp": "^0.5.1",
+    "mv": "^2.1.1",
+    "node-sass": "^4.12.0",
     "prettier": "^1.18.2",
     "react-scripts": "^3.1.1",
     "react-snap": "^1.23.0",
     "readdirp": "^3.1.2",
-    "sw-precache": "^5.2.1",
-    "uglifyjs": "^2.4.11",
-    "node-sass": "^4.12.0",
     "rimraf": "^3.0.0",
-    "mkdirp": "^0.5.1",
-    "mv": "^2.1.1",
-    "gh-pages": "^2.1.1"
+    "sw-precache": "^5.2.1",
+    "uglifyjs": "^2.4.11"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -74,7 +75,10 @@
     "preloadImages": true,
     "inlineCss": true,
     "http2PushManifest": true,
-    "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"],
+    "puppeteerArgs": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox"
+    ],
     "fixWebpackChunksIssue": "CRA2",
     "skipThirdPartyRequests": true
   }
