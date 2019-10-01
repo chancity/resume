@@ -37,13 +37,11 @@ export const SectionBox = styled.div`
 `;
 
 export const SectionBlurbs = styled.div`
-    font-size: 20px;
     font-weight: 300;
     line-height: 1.8;
-    text-align: center;
+    text-align: left;
     margin-top: 30px;
-    padding-left: 5%;
-    padding-right: 5%;
+
     
     p {
     	margin: 0 0 25px 0;

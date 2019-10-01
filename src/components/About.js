@@ -28,7 +28,7 @@ const AboutInfo = styled.div`
     margin-bottom: 25px;
     border-bottom: 1px solid #dedede;
     h1{
-		font-size: 36px;
+		font-size: xx-large;
 	    line-height: 1.1;
 	    font-weight: 700;
 	    margin-bottom: 5px;
@@ -39,7 +39,7 @@ const AboutInfo = styled.div`
 	}
 	
 	h2{
-	    font-size: 18px;
+	    font-size: large;
 	    font-weight: 400;
 	    line-height: 1.1;
 	    margin-bottom: 0;
@@ -70,7 +70,7 @@ const AboutListTitle = styled.strong`
     width: 140px;
     float: left;
     color: #333333;
-    font-size: 12px;
+    font-size: small;
     font-weight: 700;
     line-height: 20px;
     text-transform: uppercase;
@@ -135,7 +135,7 @@ const AboutPreWord = styled.div`
     span {
     	background-color: #8a00ff;
 	    color: #fff;
-	    font-size: 14px;
+	    font-size: medium;
 	    font-weight: 700;
 	    line-height: 1.1;
 	    display: inline-block;

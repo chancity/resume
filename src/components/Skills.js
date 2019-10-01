@@ -35,7 +35,7 @@ const BarTitle = styled.span`
 `;
 
 const BarData = styled.span`
-	font-size: 16px;
+	
     position: absolute;
     right: 0;
     top: 0;
@@ -43,7 +43,7 @@ const BarData = styled.span`
 `;
 
 const BarInfo = styled.div`
-    font-size: 14px;
+
     line-height: 1.1;
     padding-right: 40px;
 `;

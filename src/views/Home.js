@@ -4,6 +4,7 @@ import {About} from "../components/About";
 import {Body} from "../components/layout/Body";
 import {Skills} from "../components/Skills";
 import {Experience} from "../components/Experience";
+import {Education} from "../components/Education";
 
 
 export default () => (
@@ -18,5 +19,6 @@ export default () => (
 		<About/>
 		<Skills/>
 		<Experience/>
+		<Education/>
 	</Body>
 );

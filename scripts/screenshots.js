@@ -4,5 +4,6 @@ run({
 	destination: "build/screenshots",
 	saveAs: "png",
 	puppeteerArgs: ["--no-sandbox", "--disable-setuid-sandbox"],
-	inlineCss: true
+	inlineCss: true,
+	headless:false
 });
