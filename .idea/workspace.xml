@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b36f2d0-7cfc-4163-8c03-dafcce43974f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/screenshots.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/screenshots.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/Body.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Body.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +89,7 @@
       <workItem from="1569563057409" duration="1223000" />
       <workItem from="1569608172194" duration="4000" />
       <workItem from="1569616666267" duration="3670000" />
-      <workItem from="1569956360357" duration="3480000" />
+      <workItem from="1569956360357" duration="4188000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1569514020706</created>
@@ -315,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569959615159</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="fix build">
+      <created>1569959849684</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1569959849684</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,6 +357,7 @@
     <MESSAGE value="Added mobile friendly nav menu" />
     <MESSAGE value="fix link to favicon" />
     <MESSAGE value="Added Education section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Education section" />
+    <MESSAGE value="fix build" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix build" />
   </component>
 </project>
