@@ -19,7 +19,7 @@ const Hellos = [
 ];
 
 const SectionAbout = styled(Section)`
-	padding-top: 40px;
+	padding-top: 10px;
     position: relative;
 `;
 

@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b36f2d0-7cfc-4163-8c03-dafcce43974f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout/Body.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Body.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,7 +90,7 @@
       <workItem from="1569563057409" duration="1223000" />
       <workItem from="1569608172194" duration="4000" />
       <workItem from="1569616666267" duration="3670000" />
-      <workItem from="1569956360357" duration="4251000" />
+      <workItem from="1569956360357" duration="4416000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1569514020706</created>
@@ -328,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569960669578</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="added padding to layout style">
+      <created>1569960736268</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1569960736268</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,6 +374,7 @@
     <MESSAGE value="Added Education section" />
     <MESSAGE value="fix build" />
     <MESSAGE value="removed padding and increase layout max width" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed padding and increase layout max width" />
+    <MESSAGE value="added padding to layout style" />
+    <option name="LAST_COMMIT_MESSAGE" value="added padding to layout style" />
   </component>
 </project>
