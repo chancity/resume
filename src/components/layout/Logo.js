@@ -35,9 +35,9 @@ const SName = styled.span`
 
 export const Logo = () => (
 	<SLogo>
-		<SImageContainer>
+		{/*<SImageContainer>
 			<SImage src={logo} alt={'logo'}/>
-		</SImageContainer>
+		</SImageContainer>*/}
 		<SName>
 			Chancey Hawbaker
 		</SName>
