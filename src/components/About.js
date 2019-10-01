@@ -207,6 +207,9 @@ const SocialsWrapper = styled.div`
 				}
 		    }
 	    }
+	    li:last-of-type{
+	    	margin: 0;
+	    }
 	}
     
 `;

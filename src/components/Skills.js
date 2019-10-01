@@ -107,7 +107,7 @@ export const Skills = () => {
 				<SkillsWrapper>
 					<ProgressBar title={'Troubleshooting'} percentage={100}/>
 					<ProgressBar title={'Website Optimization'} percentage={100}/>
-					<ProgressBar title={'Creative Thinker / Innovative Problem Solver'} percentage={95}/>
+					<ProgressBar title={'Innovative Problem Solver'} percentage={95}/>
 					<ProgressBar title={'React Framework'} percentage={95}/>
 					<ProgressBar title={'ASP.NET Core'} percentage={95}/>
 					<ProgressBar title={'Reverse Engineering'} percentage={95}/>

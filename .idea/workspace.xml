@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b36f2d0-7cfc-4163-8c03-dafcce43974f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Education.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/screenshots.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/screenshots.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Experience.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Experience.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Shared.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shared.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timeline.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/timeline.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +91,7 @@
       <workItem from="1569563057409" duration="1223000" />
       <workItem from="1569608172194" duration="4000" />
       <workItem from="1569616666267" duration="3670000" />
-      <workItem from="1569956360357" duration="2765000" />
+      <workItem from="1569956360357" duration="3166000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1569514020706</created>
@@ -303,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569565067621</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Added Education section">
+      <created>1569959258311</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1569959258312</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,6 +337,7 @@
     <MESSAGE value="Changed meta wording" />
     <MESSAGE value="Added mobile friendly nav menu" />
     <MESSAGE value="fix link to favicon" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix link to favicon" />
+    <MESSAGE value="Added Education section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Education section" />
   </component>
 </project>

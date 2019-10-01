@@ -41,7 +41,8 @@ export const SectionBlurbs = styled.div`
     line-height: 1.8;
     text-align: left;
     margin-top: 30px;
-
+	padding-left: 5%;
+	padding-right: 5%;
     
     p {
     	margin: 0 0 25px 0;
