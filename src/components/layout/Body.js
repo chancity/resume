@@ -8,7 +8,6 @@ export const Body = styled.div`
     max-width: 1024px;
     padding-left: 10px;
     padding-right: 10px;
-    padding: 0;
     margin: 0 auto;
     
     ${Section}:last-child{
