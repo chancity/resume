@@ -5,5 +5,5 @@ run({
 	saveAs: "png",
 	puppeteerArgs: ["--no-sandbox", "--disable-setuid-sandbox"],
 	inlineCss: true,
-	headless:false
+	headless: true
 });
