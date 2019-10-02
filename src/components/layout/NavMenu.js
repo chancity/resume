@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 import {DESKTOP_WIDTH} from "../../other/constants";
+import {SocialLinks, SocialsWrapper} from "./SocialLinks";
+import {SectionBox} from "../Shared";
 
 export const SIconBar = styled.div`
 	display: block;
@@ -37,6 +39,12 @@ const SNavMenu = styled.nav`
     width: 100%;
     display:none;
     
+    ${SocialsWrapper} {
+    	background-color: black;
+    	a:hover{
+    		background-color: #8a00ff;
+    	}
+    }
     @media (max-width: ${DESKTOP_WIDTH}px) {
         z-index: 99999;
         ${props => props.navActive && `
@@ -52,6 +60,10 @@ const SNavMenu = styled.nav`
         height: auto;
         padding-bottom: 0;
         overflow: visible;
+        
+        ${SocialsWrapper}{
+        	display: none;
+        }
     }
 
 `;
@@ -184,6 +196,7 @@ export const NavMenu = () => {
 							Contact
 						</a>
 					</NavLi>
+					<SocialLinks/>
 				</NavUl>
 			</SNavMenu>
 		</>

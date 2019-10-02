@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b36f2d0-7cfc-4163-8c03-dafcce43974f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/layout/SocialLinks.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Shared.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shared.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Logo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout/NavMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/NavMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timeline.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/timeline.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +93,7 @@
       <workItem from="1569616666267" duration="3670000" />
       <workItem from="1569956360357" duration="6389000" />
       <workItem from="1569997126859" duration="9000" />
-      <workItem from="1570029904768" duration="5508000" />
+      <workItem from="1570029904768" duration="7095000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1569514020706</created>
@@ -358,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569961197918</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="styling fixes">
+      <created>1570039670407</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1570039670407</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,6 +400,7 @@
     <MESSAGE value="removed padding and increase layout max width" />
     <MESSAGE value="added padding to layout style" />
     <MESSAGE value="reduced about sections padding top" />
-    <option name="LAST_COMMIT_MESSAGE" value="reduced about sections padding top" />
+    <MESSAGE value="styling fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="styling fixes" />
   </component>
 </project>

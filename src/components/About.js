@@ -2,12 +2,9 @@ import React from 'react'
 import styled from 'styled-components/macro'
 import {Section, SectionBlurbs, SectionBox, WrapperContainer} from "./Shared";
 import MeUrl from '../assets/img/me.png'
-import {ReactComponent as GithubSvg} from "../assets/img/social/github.svg";
-import {ReactComponent as LinkedInSvg} from "../assets/img/social/linkedin.svg";
-import {ReactComponent as InstagramSvg} from "../assets/img/social/instagram.svg";
-import {ReactComponent as FacebookSvg} from "../assets/img/social/facebook.svg";
 
 import {DESKTOP_WIDTH} from "../other/constants";
+import {SocialLinks} from "./layout/SocialLinks";
 
 const Hellos = [
 	'Bonjour',
@@ -167,59 +164,7 @@ const AboutPreWord = styled.div`
 `;
 
 
-const SocialsWrapper = styled.div`
-	width: 100%;
-	background-color: #8a00ff;
-  	color: #fff;
-    padding: 1em 0;
-    border-bottom-right-radius: .25em;
-    border-bottom-left-radius: .25em;
-    
-    svg {
-        width: 100%;
-    	height: auto;
-    }
-    
-    ul {
-	    margin: 0;
-	    padding: 0;
-	    list-style: none;
-        display: flex;
-        justify-content: center;
-        
-		li {
-		    display: inline-flex;
-		    margin: 0 25px 0 0;
-		    
-		    a {
-		        width: 45px;
-			    height: 45px;
-			    position: relative;
-			    color: white;
-			    background-color: transparent;
-			    transition: transition, background-color 0.25s linear 0s;
-			    backface-visibility: hidden;
-			    border-radius: 50%;
-		        cursor: pointer;
-			    text-decoration: none;
-			    word-break: break-word;
-			    word-wrap: break-word;
-		        justify-content: center;
-			    display: inline-flex;
-			    align-items: center;
-			    
-			    :hover {
-			        text-decoration: none;
-		            background-color: #149e83;
-				}
-		    }
-	    }
-	    li:last-of-type{
-	    	margin: 0;
-	    }
-	}
-    
-`;
+
 export const About = () => {
 	const helloIndex = Math.floor(Math.random() * Hellos.length);
 	return (
@@ -282,30 +227,7 @@ export const About = () => {
 						</AboutList>
 					</AboutWrapper>
 				</SAbout>
-				<SocialsWrapper>
-					<ul>
-						<li>
-							<a target="_blank" href={'https://github.com/chancity'} rel="noopener noreferrer" >
-								<GithubSvg/>
-							</a>
-						</li>
-						<li>
-							<a target="_blank" href={'https://www.linkedin.com/in/chancey-h-99534055/'} rel="noopener noreferrer" >
-								<LinkedInSvg/>
-							</a>
-						</li>
-						<li>
-							<a target="_blank" href={'https://www.instagram.com/bdmakdad/'} rel="noopener noreferrer" >
-								<InstagramSvg/>
-							</a>
-						</li>
-						<li>
-							<a target="_blank" href={'https://www.facebook.com/chancey.hawbaker'} rel="noopener noreferrer" >
-								<FacebookSvg/>
-							</a>
-						</li>
-					</ul>
-				</SocialsWrapper>
+				<SocialLinks/>
 			</SectionBox>
 			<SectionBlurbs>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At varius vel pharetra vel turpis nunc eget lorem dolor. Morbi non arcu risus quis varius quam. Amet mattis vulputate enim nulla aliquet porttitor lacus luctus. Libero enim sed faucibus turpis in eu mi bibendum neque. Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac. Nam libero justo laoreet sit amet cursus sit amet. Nulla facilisi nullam vehicula ipsum. Tortor at risus viverra adipiscing. Dolor sit amet consectetur adipiscing elit. Consectetur lorem donec massa sapien faucibus et molestie ac feugiat. Sagittis vitae et leo duis ut diam quam.</p>
