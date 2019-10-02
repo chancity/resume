@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b36f2d0-7cfc-4163-8c03-dafcce43974f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Shared.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shared.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/Logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Logo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/NavMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/NavMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/timeline.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/timeline.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,7 +95,9 @@
       <workItem from="1569563057409" duration="1223000" />
       <workItem from="1569608172194" duration="4000" />
       <workItem from="1569616666267" duration="3670000" />
-      <workItem from="1569956360357" duration="4664000" />
+      <workItem from="1569956360357" duration="6389000" />
+      <workItem from="1569997126859" duration="9000" />
+      <workItem from="1570029904768" duration="5508000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1569514020706</created>
@@ -342,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569960927547</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="reduced about sections padding top">
+      <created>1569961197918</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1569961197918</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

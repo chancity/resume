@@ -2,8 +2,8 @@ import styled from 'styled-components/macro'
 
 export const WrapperContainer = styled.div`
 	display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: baseline;
 `;
 
 export const StartWrapper = styled.div`
@@ -54,9 +54,9 @@ export const SectionBlurbs = styled.div`
 `;
 
 export const SectionTitle = styled.h2`
-    font-size: 34px;
+    font-size: 150%;
+    font-weight: 400;
     margin-bottom: 25px;
     line-height: 1.2;
-    font-weight: 600;
     text-align: center;
 `;

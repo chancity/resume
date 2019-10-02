@@ -28,9 +28,9 @@ const AboutInfo = styled.div`
     margin-bottom: 25px;
     border-bottom: 1px solid #dedede;
     h1{
-		font-size: xx-large;
+		font-size: 150%;
 	    line-height: 1.1;
-	    font-weight: 700;
+	    font-weight: 400;
 	    margin-bottom: 5px;
 	    margin-top: 0;
 	    span {
@@ -39,8 +39,8 @@ const AboutInfo = styled.div`
 	}
 	
 	h2{
-	    font-size: large;
-	    font-weight: 400;
+	    font-size: 105%;
+    	font-weight: 300;
 	    line-height: 1.1;
 	    margin-bottom: 0;
 	}
@@ -51,8 +51,15 @@ const AboutList = styled.ul`
     list-style: none;
     
     li {
-        margin-bottom: 13px;
-        
+        margin-bottom: 18px;
+        white-space: nowrap;
+        display: flex;
+        align-content: center;
+        @media (max-width: ${DESKTOP_WIDTH}px) {
+			display: inherit;
+			 margin-bottom: 15px;
+		}
+	
     	:before, :after {
             content: " ";
     		display: table;
@@ -66,7 +73,7 @@ const AboutList = styled.ul`
     }
 `;
 const AboutListTitle = styled.strong`
-    display: block;
+    display: inline-block;
     width: 140px;
     float: left;
     color: #333333;
@@ -76,19 +83,19 @@ const AboutListTitle = styled.strong`
     text-transform: uppercase;
     
 	@media (max-width: ${DESKTOP_WIDTH}px) {
+		display: block;
 		width: 100%;
 		float: none;
 		line-height: 1.2;
 	}
 `;
 const AboutListValue = styled.span`
-    display: block;
-    margin-left: 125px;
-    font-size: 14px;
+    display: inline-block;
     font-weight: 400;
     line-height: 20px;
 
     @media (max-width: ${DESKTOP_WIDTH}px) {
+    	display: block;
 		width: 100%;
 		float: none;
 		line-height: 1.2;
@@ -128,14 +135,14 @@ const Image = styled.img`
 const AboutWrapper = styled(WrapperContainer)`
 	flex-direction: column;
 	align-items: unset;
-	justify-content: unset;
+	justify-content: unset;	
 `;
 const AboutPreWord = styled.div`
     margin-bottom: 28px;
     span {
     	background-color: #8a00ff;
 	    color: #fff;
-	    font-size: medium;
+        font-size: 90%;
 	    font-weight: 700;
 	    line-height: 1.1;
 	    display: inline-block;
@@ -143,7 +150,7 @@ const AboutPreWord = styled.div`
 	    text-transform: uppercase;
 	    position: relative;
 	    border-radius: .25em;
-	      box-shadow: 0 1px 6px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.24);
+      	box-shadow: 0 1px 6px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.24);
 	    :before {
 	    	border-left-color: #8a00ff;
 			content: '';
@@ -269,7 +276,7 @@ export const About = () => {
 									languages
 								</AboutListTitle>
 								<AboutListValue>
-									JavaScript, C#, Java
+									React.js, C#, JavaScript, Java
 								</AboutListValue>
 							</li>
 						</AboutList>

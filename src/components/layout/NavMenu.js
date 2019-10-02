@@ -83,7 +83,7 @@ export const NavUl = styled.ul`
 	    background: #fff;
 	    border-radius: 3px;
 	    margin: 0;
-	    box-shadow: 0 10px 35px transparent, 0 0 15px 0 rgba(0,0,0,.15);
+	   	box-shadow: 0 1px 6px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.24);
 	    flex-direction: column;
 	    text-align: left;
 	    transform-origin: top right;
@@ -97,16 +97,21 @@ export const NavLi = styled.li`
     position: relative;
     display: flex;
     height: 25px;
+    border-bottom: 1px solid #f7f7f7;
+    
     a {
     	width:	100%;
-		:after{
-		  	content: "";
-			transition: all ease .25s;
-		    height: 9px;
-		    display: block;
-	       	border-bottom: 2px solid #8a00ff;
-			width: 0;
-		}	
+        @media (min-width: ${DESKTOP_WIDTH}px) {
+	        :after{
+			    content: "";
+				transition: all ease .25s;
+			    height: 9px;
+			    display: block;
+		        border-bottom: 2px solid #8a00ff;
+				width: 0;
+			}	
+		}
+
 		
 		:hover {
 			:after{

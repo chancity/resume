@@ -27,10 +27,10 @@ const SImage = styled.img`
 `;
 
 const SName = styled.span`
-	font-weight: 700;
+	font-weight: 400;
 	letter-spacing: 1px;
 	margin-left: 12px;
-	font-size: 24px;
+	font-size: 150%;
 `;
 
 export const Logo = () => (
