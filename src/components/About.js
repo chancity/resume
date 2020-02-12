@@ -137,7 +137,7 @@ const AboutWrapper = styled(WrapperContainer)`
 const AboutPreWord = styled.div`
     margin-bottom: 28px;
     span {
-    	background-color: #8a00ff;
+    	background-color: #43126d;
 	    color: #fff;
         font-size: 90%;
 	    font-weight: 700;
@@ -149,7 +149,7 @@ const AboutPreWord = styled.div`
 	    border-radius: .25em;
       	box-shadow: 0 1px 6px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.24);
 	    :before {
-	    	border-left-color: #8a00ff;
+	    	border-left-color: #43126d;
 			content: '';
 		    width: 0;
 		    height: 0;

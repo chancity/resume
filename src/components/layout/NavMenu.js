@@ -42,7 +42,7 @@ const SNavMenu = styled.nav`
     ${SocialsWrapper} {
     	background-color: black;
     	a:hover{
-    		background-color: #8a00ff;
+    		background-color: #43126d;
     	}
     }
     @media (max-width: ${DESKTOP_WIDTH}px) {
@@ -119,7 +119,7 @@ export const NavLi = styled.li`
 				transition: all ease .25s;
 			    height: 9px;
 			    display: block;
-		        border-bottom: 2px solid #8a00ff;
+		        border-bottom: 2px solid #43126d;
 				width: 0;
 			}	
 		}

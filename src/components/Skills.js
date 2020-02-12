@@ -56,7 +56,7 @@ const BarFill = styled.span`
     z-index: 1;
     border-radius: 5px;
     transition: width 400ms ease-out 100ms;
-      background-color: #8a00ff;
+      background-color: #43126d;
 `;
 
 const BarLine = styled.div`
@@ -72,7 +72,7 @@ const BarLine = styled.div`
 	    height: 100%;
 	    z-index: 0;
 	    border-radius: 5px;
-	    background-color: #8a00ff;
+	    background-color: #43126d;
     }
 `;
 

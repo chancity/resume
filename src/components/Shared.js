@@ -34,7 +34,9 @@ export const SectionBox = styled.div`
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
 	width: 100%;
 	border-radius: .25em;
-`;
+	background-color: #ffffff;
+    box-shadow: inset rgba(0, 0, 0, 0.12) 0px 1px 6px, inset rgba(0, 0, 0, 0.24) 0px 1px 4px;
+}`;
 
 export const SectionBlurbs = styled.div`
     font-weight: 300;

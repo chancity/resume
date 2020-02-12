@@ -7,7 +7,7 @@ import React from "react";
 
 export const SocialsWrapper = styled.div`
 	width: 100%;
-	background-color: #8a00ff;
+	background-color: #43126d;
   	color: #fff;
     padding: .5em 0;
     border-bottom-right-radius: .25em;

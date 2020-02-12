@@ -4,13 +4,14 @@ module.exports = {
 	staticFileGlobs: [
 		"build/static/css/*.css",
 		"build/static/js/*.js",
-		"build/shell.html",
 		"build/index.html",
+		"build/*/**.html",
+		"build/*/*/**.html"
 	],
 	stripPrefix: "build",
 	publicPath: ".",
 	// there is "reactSnap.include": ["/shell.html"] in package.json
-	//navigateFallback: "/shell.html",
+	navigateFallback: "/shell.html",
 	// Ignores URLs starting from /__ (useful for Firebase):
 	// https://github.com/facebookincubator/create-react-app/issues/2237#issuecomment-302693219
 	navigateFallbackWhitelist: [/^(?!\/__).*/],
@@ -19,11 +20,13 @@ module.exports = {
 	// If a URL is already hashed by Webpack, then there is no concern
 	// about it being stale, and the cache-busting can be skipped.
 	dontCacheBustUrlsMatching: /\.\w{8}\./,
+	directoryIndex:'index.html',
 	// configuration specific to this experiment
 	runtimeCaching: [
 		{
-			urlPattern: /api/,
-			handler: "fastest"
+			// Match any request that ends with .png, .jpg, .jpeg or .svg.
+			urlPattern: /\.(?:png|jpg|jpeg|svg|webp)$/,
+			handler: 'cacheFirst',
 		}
 	]
 };
