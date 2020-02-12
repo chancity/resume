@@ -1,11 +1,11 @@
 CACHE MANIFEST
-# version 1579036554600
+# version 1581489215473
 
 CACHE:
-/static/css/main.38b347c6.chunk.css
-/static/js/2.a7a22673.chunk.js
-/static/js/main.6b617369.chunk.js
-/static/js/runtime-main.e9804bce.js
+/static/css/main.0194bccb.chunk.css
+/static/js/2.b17c19f3.chunk.js
+/static/js/main.8c8935fc.chunk.js
+/static/js/runtime-main.fa53a738.js
 /index.html
 
 NETWORK:
@@ -14,4 +14,4 @@ http://*
 https://*
 
 FALLBACK:
-/ undefined
+/ /shell.html
