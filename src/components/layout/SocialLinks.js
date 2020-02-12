@@ -64,22 +64,22 @@ export const SocialLinks = () => (
 	<SocialsWrapper>
 		<ul>
 			<li>
-				<a target="_blank" href={'https://github.com/chancity'} rel="noopener noreferrer" >
+				<a target="_blank" href={'https://github.com/chancity'} rel="noopener noreferrer" title={'github'}>
 					<GithubSvg/>
 				</a>
 			</li>
 			<li>
-				<a target="_blank" href={'https://www.linkedin.com/in/chancey-h-99534055/'} rel="noopener noreferrer" >
+				<a target="_blank" href={'https://www.linkedin.com/in/chancey-h-99534055/'} rel="noopener noreferrer" title={'linkedin'} >
 					<LinkedInSvg/>
 				</a>
 			</li>
 			<li>
-				<a target="_blank" href={'https://www.instagram.com/bdmakdad/'} rel="noopener noreferrer" >
+				<a target="_blank" href={'https://www.instagram.com/bdmakdad/'} rel="noopener noreferrer" title={'instagram'}>
 					<InstagramSvg/>
 				</a>
 			</li>
 			<li>
-				<a target="_blank" href={'https://www.facebook.com/chancey.hawbaker'} rel="noopener noreferrer" >
+				<a target="_blank" href={'https://www.facebook.com/chancey.hawbaker'} rel="noopener noreferrer" title={'facebook'}>
 					<FacebookSvg/>
 				</a>
 			</li>
