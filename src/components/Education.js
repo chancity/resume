@@ -1,7 +1,7 @@
 import React from 'react';
 import {ReactComponent as SchoolSvg} from "../assets/img/layout/school.svg";
 import {VerticalTimeline, VerticalTimelineElement} from 'react-vertical-timeline-component';
-import '../timeline.scss'
+//import '../timeline.scss'
 
 import {Section, SectionTitle} from "./Shared";
 

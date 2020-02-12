@@ -1,7 +1,7 @@
 import React from 'react';
 import {ReactComponent as WorkSvg} from "../assets/img/layout/work.svg";
 import {VerticalTimeline, VerticalTimelineElement} from 'react-vertical-timeline-component';
-import '../timeline.scss'
+//import '../timeline.scss'
 
 import {Section, SectionTitle} from "./Shared";
 

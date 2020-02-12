@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import { Router } from "react-router-dom";
 import {unregister}  from './registerServiceWorker';
-//import registerServiceWorker from "./registerServiceWorker";
+import registerServiceWorker from "./registerServiceWorker";
 import history from './other/history'
 //import ReactGA from 'react-ga';
 import './index.scss'
@@ -30,5 +30,8 @@ if (rootElement.hasChildNodes()) {
 	ReactDOM.render(AppWithRouter, rootElement);
 }
 
-//registerServiceWorker();
-unregister();
+if(navigator.userAgent !== "ReactSnap") {
+	registerServiceWorker();
+} else {
+	unregister();
+}
